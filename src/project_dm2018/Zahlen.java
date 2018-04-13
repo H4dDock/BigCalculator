@@ -80,7 +80,7 @@ public class Zahlen {
 	}
 	
 	static Natural TRANS_Z_N(Zahlen z) {
-		if (z.n == 1) {
+		if (z.n == 2) {
 			Natural a = new Natural(new ArrayList<>(z.number));
 			return a;
 		}else {

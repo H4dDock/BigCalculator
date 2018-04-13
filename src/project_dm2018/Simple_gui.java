@@ -285,7 +285,7 @@ public class Simple_gui extends JFrame{
 				
 			case "ABS_Z_N":
 				a1 = Zahlen.StringToZahlen(input1.getText());
-				message = "" + Zahlen.ABS_Z_N(a1);
+				message = "" + Natural.NaturalToNormalString(Zahlen.ABS_Z_N(a1));
 				JOptionPane.showMessageDialog(null, message,"output",JOptionPane.PLAIN_MESSAGE);
 				break;
 				

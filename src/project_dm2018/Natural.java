@@ -27,7 +27,7 @@ class Natural {
 	
 	public static String NaturalToNormalString(Natural a) {
 		String c = "";
-		for (int i = 0; i<a.x.size();i++) {
+		for (int i = 0; i<a.x.size(); i++) {
 			c += a.x.get(i);
 		}
 		return c;
