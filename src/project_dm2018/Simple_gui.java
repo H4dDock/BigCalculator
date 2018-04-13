@@ -54,7 +54,6 @@ public class Simple_gui extends JFrame{
 							"NZER_N_B",
 							"ADD_1N_N",
 							"ADD_NN_N",
-							"ADD_NN_N",
 							"SUB_NN_N",
 							"MUL_ND_N",
 							"MUL_NK_N",
@@ -62,6 +61,7 @@ public class Simple_gui extends JFrame{
 							"SUB_NDN_N",
 							"DIV_NN_DK",
 							"DIV_NN_N",
+							"MOD_NN_N",
 							"GCF_NN_N",
 							"LCM_NN_N"
 						};
