@@ -2,6 +2,10 @@ package project_dm2018;
 
 import java.util.ArrayList;
 
+
+/*
+ Мария Лозинская гр. 7307
+ */
 class Natural {
 	ArrayList<Integer> x = new ArrayList<Integer>();
 
@@ -317,12 +321,6 @@ class Natural {
 		Natural b11 = new Natural();
 		Natural c1 = new Natural();
 		
-		/*if (COM_MN_D(a1,b1) == 1) {
-			Natural c = new Natural (new ArrayList<Integer>(a1.x));
-			a1 = b1;
-			b1 = c;
-		}*/
-		
 		if(NZER_N_B(b1)==1 || b1.x.size() == 0) {
 			return null;
 		}
@@ -354,11 +352,6 @@ class Natural {
 		Natural b1 = new Natural(new ArrayList<Integer>(b.x));
 		Natural c1 = new Natural();
 		
-		/*if (COM_MN_D(a1,b1) == 1) {
-			Natural c = new Natural (new ArrayList<Integer>(a1.x));
-			a1 = b1;
-			b1 = c;
-		}*/
 		
 		while(COM_MN_D(a1,b) != 1) {
 			int help = DIV_NN_DK(a1,b);
@@ -400,7 +393,6 @@ class Natural {
 		Natural r1 = new Natural(new ArrayList<Integer>(b.x));
 		
 		r1 = MUL_NN_N(a1,b1);
-		//Print_natural(GCF_NN_N(a1,b1));
 		r1 = DIV_NN_N(r1,GCF_NN_N(a1,b1));
 		
 		return r1;

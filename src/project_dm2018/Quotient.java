@@ -2,6 +2,10 @@ package project_dm2018;
 
 import java.util.ArrayList;
 
+/*
+ Коваль Максим гр 7307
+ */
+
 public class Quotient {
 	Zahlen nomerator;
 	Natural denomerator;

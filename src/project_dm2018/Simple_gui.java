@@ -96,7 +96,7 @@ public class Simple_gui extends JFrame{
 					break;
 				case "Quotient (Q)":
 					String function2[] = {
-							"RED_QQ_Q",
+							"RED_Q_Q",
 							"INT_Q_B",
 							"TRANS_Z_Q",
 							"TRANS_Q_Z",

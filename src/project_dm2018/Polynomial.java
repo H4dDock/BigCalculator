@@ -3,6 +3,10 @@ package project_dm2018;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/*
+ Коваль Максим гр 7307
+ */
+
 public class Polynomial {
 	ArrayList<Quotient> coefficient;
 	static Scanner in = new Scanner(System.in);

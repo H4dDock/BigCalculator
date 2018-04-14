@@ -2,6 +2,10 @@ package project_dm2018;
 
 import java.util.ArrayList;
 
+/*
+ Мария Лозинская гр 7307
+ */
+
 public class Zahlen {
 	int n;
 	ArrayList<Integer> number = new ArrayList<>();
